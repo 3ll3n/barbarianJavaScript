@@ -23,4 +23,12 @@ describe('barbarian', function() {
     assert.equal("beer", barbarian.favBeer);
   })
 
+  // it('health should increase when drinking favBeer', function() {
+
+  // })
+
+  // it('anger should increase when drinking not favBeer', function() {
+
+  // })
+
 })
