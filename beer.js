@@ -1,4 +1,4 @@
-var favBeer = {
+var beer = {
   type: "beer",
   container: "bottle",
   volume: 100,
@@ -7,4 +7,4 @@ var favBeer = {
   }
 }
 
-module.exports = favBeer;
+module.exports = beer;

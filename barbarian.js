@@ -3,7 +3,16 @@ var barbarian = {
   weapon: "sword",
   health: 100,
   angerLevel: 1,
-  favBeer: "beer"
+  favBeer: "beer",
+  drink: function(drink) {
+    if(this.favBeer == drink.type){
+      this.health += 10;
+    } 
+
+    if(drink.type != "beer") {
+      this.angerLevel += 10;
+    }
+  }
 }
 
 module.exports = barbarian;
