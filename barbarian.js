@@ -7,10 +7,9 @@ var barbarian = {
   drink: function(drink) {
     if(this.favBeer == drink.type){
       this.health += 10;
-    } 
-
-    if(drink.type != "beer") {
-      this.angerLevel += 10;
+    } else {
+      (this.favBeer != drink.type) 
+        this.angerLevel += 10;
     }
   }
 }

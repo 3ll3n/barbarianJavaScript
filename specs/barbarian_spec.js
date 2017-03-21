@@ -29,9 +29,9 @@ describe('barbarian', function() {
     assert.equal(110, barbarian.health);
   })
 
-  // it('anger should increase when drinking not favBeer', function() {
-  //   barbarian.drink(beer);
-  //   assert.equal(11, barbarian.angerLevel);
-  // })
+  it('anger should increase when drinking not favBeer', function() {
+    barbarian.drink(beer);
+    assert.equal(11, barbarian.angerLevel);
+  })
 
 })
