@@ -1,6 +1,7 @@
 var barbarian = require('../barbarian');
 var assert = require('assert');
 var beer = require('../beer');
+var flatBeer = require('../flatBeer');
 
 describe('barbarian', function() {
 
@@ -30,7 +31,7 @@ describe('barbarian', function() {
   })
 
   it('anger should increase when drinking not favBeer', function() {
-    barbarian.drink(beer);
+    barbarian.drink(flatBeer);
     assert.equal(11, barbarian.angerLevel);
   })
 
